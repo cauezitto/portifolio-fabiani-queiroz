@@ -89,7 +89,7 @@ const Carrossel = ({}) => {
         <div style={{ display: "flex", width: "fit-content" }}>
           {mocks.map((site, index) => (
             <div
-              ref={(el) => (itemRefs.current[index] = el)}
+              ref={(el: any) => (itemRefs.current[index] = el)}
               style={{
                 width: "70vw",
                 position: "relative",

@@ -34,7 +34,7 @@ const mocks = [
 
 const Carrossel = ({}) => {
   const scrollRef: any = useRef(null);
-  const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const itemRefs = useRef<any>([]);
   const [activeIndex, setActiveIndex] = useState(0);
 
   const scrollToNextItem = () => {
@@ -121,7 +121,7 @@ const Carrossel = ({}) => {
         <div style={{ display: "flex", width: "fit-content" }}>
           {mocks.map((site, index) => (
             <div
-              ref={(el) => (itemRefs.current[index] = el)}
+              ref={(el: any) => (itemRefs.current[index] = el)}
               style={{
                 width: "60vw",
                 position: "relative",
