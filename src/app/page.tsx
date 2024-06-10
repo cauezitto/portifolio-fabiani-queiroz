@@ -444,6 +444,7 @@ export default function Home() {
                   textAlign="center"
                 />
               </div>
+              <div style={{ marginTop: 250 }} />
             </div>
             <div className={breakpoints.hideOnDesktop}>
               <div className={alignments.center}>
@@ -455,7 +456,6 @@ export default function Home() {
                   textAlign="center"
                 />
               </div>
-              <div style={{ marginTop: 250 }} />
             </div>
           </MargemHorizontal>
           <div className={breakpoints.hideOnDesktop}>
