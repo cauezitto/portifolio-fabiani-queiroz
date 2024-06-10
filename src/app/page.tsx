@@ -455,9 +455,8 @@ export default function Home() {
                   textAlign="center"
                 />
               </div>
+              <div style={{ marginTop: 250 }} />
             </div>
-
-            <div style={{ marginTop: 250 }} />
           </MargemHorizontal>
           <div className={breakpoints.hideOnDesktop}>
             <Carrossel />
