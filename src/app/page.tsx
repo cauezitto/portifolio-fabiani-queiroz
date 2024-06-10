@@ -159,7 +159,8 @@ export default function Home() {
                 Meu nome é Fabiani,
                 <br />
                 sou profissional de marketing digital e web designer. <br />
-                Trabalho com a criação de sites, <br /> gestão de mídias
+                Trabalho com a criação de sites,{" "}
+                <br className={breakpoints.hideOnMobile} /> gestão de mídias
                 sociais, SEO, <br />
                 análise de campanhas e gero <br /> resultados para um melhor{" "}
                 <br />
