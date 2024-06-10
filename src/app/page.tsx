@@ -456,6 +456,7 @@ export default function Home() {
                   textAlign="center"
                 />
               </div>
+              <div style={{ marginTop: 50 }} />
             </div>
           </MargemHorizontal>
           <div className={breakpoints.hideOnDesktop}>
