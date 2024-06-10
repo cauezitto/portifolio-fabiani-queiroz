@@ -1,0 +1,31 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full {
+  width: 100%;
+}
+
+.spaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gap10 {
+  gap: 10px;
+}
+
+.gap50 {
+  gap: 50px;
+}
+
+.gap100 {
+  gap: 100px;
+}

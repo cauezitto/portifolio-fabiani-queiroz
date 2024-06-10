@@ -1,0 +1,15 @@
+.hideOnDesktop {
+  display: none;
+}
+@media (max-width: 770px) {
+  .columnOnMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .hideOnMobile {
+    display: none;
+  }
+  .hideOnDesktop {
+    display: unset;
+  }
+}

@@ -1,0 +1,10 @@
+﻿/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: "Sansita One";
+  src: url("SansitaOne.eot?") format("eot"),
+    url("SansitaOne.woff") format("woff"),
+    url("SansitaOne.ttf") format("truetype"),
+    url("SansitaOne.svg#SansitaOne") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

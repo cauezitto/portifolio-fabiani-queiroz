@@ -9,14 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
+    "next": "14.2.3",
+    "react": "^18.3.1",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "scroll": "^3.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.10",
+    "typescript": "^5"
   }
 }

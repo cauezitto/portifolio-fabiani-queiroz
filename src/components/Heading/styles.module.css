@@ -1,0 +1,11 @@
+.filled {
+  background-color: #dc7612;
+  padding: 10px 25px;
+  padding-bottom: 15px;
+  width: fit-content;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
