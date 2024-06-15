@@ -44,7 +44,10 @@ const Header = ({ menuItems }: HeaderProps) => {
         </header>
       </div>
 
-      <div className={breakpoints.hideOnDesktop}>
+      <div
+        style={{ display: "flex", width: "100%", justifyContent: "flex-end" }}
+        className={breakpoints.hideOnDesktop}
+      >
         <div onClick={changeMenu}>
           <img src="/menu.svg" alt="menu hamburguer" />
         </div>
